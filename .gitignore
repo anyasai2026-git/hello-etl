@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+.tfstate.
+*.tfvars
+crash.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Parquet / data downloads
+*.parquet
+_SUCCESS
+
+# IDE
+.vscode/
+.idea/
+
+# AWS installer leftovers
+awscliv2.zip
+aws/
